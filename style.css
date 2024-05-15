@@ -1,21 +1,31 @@
+body {
+    background-color: white;
+}
+
 ul {
     list-style-type: none;
     margin: -6px;
     padding: 0;
 }
 
-
 li {
     float: left;
-    background-color: black;
+    background-color: rgba(37, 198, 209, 0.397);
+    width: calc(25%);
 }
 
-
 li a {
-    color: red;
-    width: 150px;;
+    color: black;
     text-align: center;
     display: block;
     text-decoration: none;
     line-height: 50px;
+}
+
+li a:hover {
+    background-color: rgba(37, 198, 209, 0.558);
+}
+
+li .selecionado {
+    background-color: rgba(37, 198, 209, 0.863);;
 }
