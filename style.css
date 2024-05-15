@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -17,16 +16,17 @@ body {
 }
 
 .corpo {
-    background-color: rgb(219, 45, 45);
+    background-color: rgba(122, 86, 86, 0.406);
     display: block;
-    width: 100%;
+    width: 90vw;
+    padding: 5vh;
     height: var(--tamanho-corpo);
 }
 
 .rodape {
     width: 100%;
     display: block;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.214);
     height: var(--tamanho-rodape);
 }
 
@@ -61,7 +61,8 @@ li a:hover {
     background-color: rgba(37, 198, 209, 0.558);
 }
 
-li .selecionado {
+.selecionado {
+    font-size: 20px;
     background-color: rgba(37, 198, 209, 0.863);;
 } 
 
