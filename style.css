@@ -1,7 +1,7 @@
 :root {
     --tamanho-cabecalho: 5vh;
-    --tamanho-corpo: 85vh;
-    --tamanho-rodape: 10vh;
+    --tamanho-corpo: 90vh;
+    --tamanho-rodape: 5vh;
 }
 
 body {
@@ -27,6 +27,7 @@ body {
     width: 100%;
     display: block;
     background-color: rgba(0, 0, 255, 0.214);
+    text-align: center;
 }
 
 ul {
