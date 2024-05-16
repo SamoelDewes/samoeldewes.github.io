@@ -70,6 +70,15 @@ li a:hover {
     padding: 50px 10px 10px 100px;
 }
 
+.corpo dt {
+    padding-left: 200px;
+    font-size: 22px;
+}
+
+.corpo dd {
+    padding-left: 220px;
+}
+
 .corpo ul {
     color: red;
 }
