@@ -16,11 +16,13 @@ body {
 }
 
 .corpo {
-    height: var(--tamanho-corpo);
+    height: calc(var(--tamanho-corpo) - 2vh);
     width: 80%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgba(122, 86, 86, 0.406);
+    background-color: rgba(159, 149, 149, 0.14);
     display: block;
     border-radius: 100px;
 }
@@ -49,10 +51,13 @@ ul {
 }
 
 li {
-    background-color: rgba(37, 198, 209, 0.397);
-    width: 25%;
+    background-color: rgb(218, 146, 146);
+    width: 23%;
     display: inline-block;
     font-size: 16px;
+    border-radius: 500px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 li a {
