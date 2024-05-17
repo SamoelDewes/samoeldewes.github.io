@@ -21,9 +21,18 @@
 
     <!-- Corpo da página -->
     <div class="corpo">
-        <p>Este site foi desenvolvido para a matéria de <b>FERRAMENTAS DE DESENVOLVIMENTO WEB</b></p>
-        <p>Para o desenvolvimento do mesmo, foi utilizado o Visual Studio Code como IDE de desenvolvimento e HTML e CSS
-            como técnologia.</p>
+        <div class="conteudo">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="conteudo">Conteúdo:</label><br>
+            <textarea id="conteudo" name="conteudo" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </div>
     </div>
 
     <!-- Rodapé da página -->
