@@ -24,7 +24,7 @@ body {
     margin-right: 10%;
     background-color: rgba(159, 149, 149, 0.14);
     display: block;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 .rodape {
@@ -76,7 +76,7 @@ li a:hover {
 }
 
 .selecionado {
-    font-size: 20px;
+    font-size: 20px; 
     background-color: rgba(37, 198, 209, 0.863);
 }
 
@@ -87,4 +87,8 @@ li a:hover {
 .corpo img {
     width: 50px;
     height: 50px;
+}
+
+.corpo * {
+    max-width: 100%;
 }
