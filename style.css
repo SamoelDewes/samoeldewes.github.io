@@ -68,6 +68,7 @@ li a {
     text-decoration: none;
     line-height: var(--tamanho-cabecalho);
     height: var(--tamanho-cabecalho);
+    white-space: nowrap;
 }
 
 li a:hover {
