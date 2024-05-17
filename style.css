@@ -73,6 +73,7 @@ li a {
 
 li a:hover {
     background-color: rgba(37, 198, 209, 0.558);
+    border-radius: 500px;
 }
 
 .selecionado {
