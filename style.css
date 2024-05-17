@@ -78,6 +78,7 @@ li a:hover {
 .selecionado {
     font-size: 20px; 
     background-color: rgba(37, 198, 209, 0.863);
+    border-radius: 500px;
 }
 
 .corpo dt {
