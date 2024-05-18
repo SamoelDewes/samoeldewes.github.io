@@ -1,20 +1,24 @@
+/* Define constantes */
 :root {
     --tamanho-cabecalho: 5vh;
     --tamanho-corpo: 90vh;
     --tamanho-rodape: 5vh;
 }
 
+/* Remove borda padrão do sistema */
 body {
     margin: 0;
     padding: 0;
 }
 
+/* Define estrutura do cabeçalho */
 .cabecalho {
     height: var(--tamanho-cabecalho);
     display: block;
     width: 100%;
 }
 
+/* Define estrutura do corpo */
 .corpo {
     height: calc(var(--tamanho-corpo) - 2vh);
     width: 80%;
@@ -27,6 +31,7 @@ body {
     border-radius: 50px;
 }
 
+/* Define estrutura do rodapé */
 .rodape {
     height: var(--tamanho-rodape);
     width: 100%;
@@ -36,11 +41,13 @@ body {
     color: rgba(255, 255, 255, 0.611);
 }
 
+/* Definição padrão para conteudo dentro do corpo */
 .corpo .conteudo {
     padding-top: 5%;
     text-align: center;
 }
 
+/* Padronização de lista do cabeçalho */
 ul {
     list-style-type: none;
     padding: 0;
@@ -51,6 +58,7 @@ ul {
     font-size: 0;
 }
 
+/* Definição de cada item da lista do menu */
 li {
     background-color: rgb(218, 146, 146);
     width: 23%;
@@ -61,6 +69,7 @@ li {
     margin-right: 1%;
 }
 
+/* Definição da âncora do menu */
 li a {
     color: black;
     text-align: center;
@@ -71,26 +80,36 @@ li a {
     white-space: nowrap;
 }
 
+/* Definição da âncora do menu ao passar o mouse */
 li a:hover {
     background-color: rgba(37, 198, 209, 0.558);
     border-radius: 500px;
 }
 
+/* Definição do menu selecionado */
 .selecionado {
     font-size: 20px; 
     background-color: rgba(37, 198, 209, 0.863);
     border-radius: 500px;
 }
 
+/* Definição do titulo de formação */
 .corpo dt {
     font-size: 25px;
 }
 
-.corpo img {
+/* Definição de imagens no corpo */
+.corpo .img-github {
     width: 50px;
     height: 50px;
 }
 
+.corpo .img-perfil {
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+/* Definição geral do corpo para tamanho máximo */
 .corpo * {
     max-width: 100%;
 }
